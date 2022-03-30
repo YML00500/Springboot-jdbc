@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: elisa
+    password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://112.126.64.11:3306/yml
+
+  sql:
+    init:
+      mode: ALWAYS
+      schema-locations:
+        - classpath:data/schema.sql
+
+      data-locations:
+        - classpath:data/data.sql
+
+  hikari:
+    maximum-pool-size:1
