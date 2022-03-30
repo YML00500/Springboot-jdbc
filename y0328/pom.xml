@@ -25,7 +25,7 @@
         </dependency>
 
     </dependencies>
-
+//版本号统一管理
     <dependencyManagement>
         <dependencies>
             <dependency>
